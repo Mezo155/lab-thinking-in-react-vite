@@ -12,7 +12,7 @@ return(
         </thead>
         <tbody>
             {products.map((product) => {
-               <ProductRow key={product.id} product={product}></ProductRow> 
+            <ProductRow key={product.id} product={product}></ProductRow> 
             })}
         </tbody>
     </table>

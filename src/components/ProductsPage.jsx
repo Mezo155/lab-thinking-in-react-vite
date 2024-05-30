@@ -1,4 +1,4 @@
-// src/components/ProductsPage.jsx
+
 
 import { useState } from "react";
 import jsonData from "./../data.json";
@@ -6,7 +6,7 @@ import ProductTable from "./ProductTable";
 
 
 function ProductsPage() {
-  const [products, setProducts] = useState(jsonData);
+  const [products] = useState(jsonData);
 
   return (
     <div>
