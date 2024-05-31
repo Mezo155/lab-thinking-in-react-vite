@@ -11,9 +11,9 @@ return(
             </tr>
         </thead>
         <tbody>
-            {products.map((product) => {
+            {products.map((product) => (
             <ProductRow key={product.id} product={product}></ProductRow> 
-            })}
+            ))}
         </tbody>
     </table>
 )
